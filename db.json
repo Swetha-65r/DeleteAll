@@ -1,3 +1,29 @@
 {
-  "data": []
+  "data": [
+    {
+      "id": "1",
+      "name": "swetha",
+      "salary": "23000"
+    },
+    {
+      "id": "2",
+      "name": "sneha",
+      "salary": "30000"
+    },
+    {
+      "id": "3",
+      "name": "sashi",
+      "salary": "35000"
+    },
+    {
+      "id": "4",
+      "name": "shiva",
+      "salary": "40000"
+    },
+    {
+      "id": "5",
+      "name": "charan",
+      "salary": "45000"
+    }
+  ]
 }
