@@ -2,15 +2,13 @@
 
 const BASE_URL = "http://localhost:5000/data";
 
-// array to POST
 const data = [
   { id: "1", name: "suresh" },
   { id: "2", name: "Rajesh" },
   { id: "3", name: "ramesh" },
   { id: "4", name: "Mahesh" }
 ];
-
-// ---------- POST ALL ----------
+// POST ALL //
 function postAllData() {
   const options = {
     method: "POST",
@@ -37,7 +35,7 @@ function postAllData() {
   }
 }
 
-// ---------- DELETE ALL ----------
+// DELETE ALL 
 function deleteAllData() {
   fetch(BASE_URL)
     .then(res => {
@@ -68,3 +66,4 @@ function deleteAllData() {
     .then(() => console.log("Delete-all finished"))
     .catch(err => console.error("Error in deleteAllData:", err));
 }
+
